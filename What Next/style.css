@@ -23,6 +23,7 @@ body {
     background-color: #131921;
     position: fixed;
     align-items: center;
+    z-index: 1;
 }
 
 #nav1 img {
@@ -33,7 +34,8 @@ body {
     position: absolute;
     align-items: center;
 }
-#location{
+
+#location {
     height: 3.3rem;
     width: 11rem;
     /* background-color: #fff; */
@@ -42,29 +44,34 @@ body {
     margin-top: 0.62rem;
     border-radius: 4px;
     position: absolute;
-    
+
 
 }
-#location:hover{
+
+#location:hover {
     border: 1px solid white;
 }
-#location h5{
+
+#location h5 {
     font-weight: 300;
     padding-left: 1rem;
     padding-top: .5rem;
     color: white;
 }
-#location .ri-map-pin-line{
+
+#location .ri-map-pin-line {
     size: 1rem;
     color: white;
 }
-#location h4{
+
+#location h4 {
     margin-top: -1rem;
     margin-left: 1.5rem;
     color: white;
 
 }
-#elements{
+
+#elements {
     height: 2.8rem;
     width: 36rem;
     background-color: #b4a7a7;
@@ -74,13 +81,15 @@ body {
     border-radius: 4px;
     position: absolute;
 }
-#elements input{
+
+#elements input {
     margin-left: 4rem;
     object-fit: cover;
     height: 2.8rem;
     width: 27.9rem;
 }
-#All{
+
+#All {
     height: 2.8rem;
     width: 4rem;
     background-color: #c99c9c;
@@ -90,14 +99,16 @@ body {
     border-radius: 4px;
     position: absolute;
     display: flex;
-    justify-self:center;
+    justify-self: center;
     align-items: center;
 }
-#all select{
+
+#all select {
     height: 3.3rem;
     width: 4rem;
 }
-#m-glass{
+
+#m-glass {
     height: 2.8rem;
     width: 4rem;
     background-color: #F3A847;
@@ -110,7 +121,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-#flag{
+
+#flag {
     height: 3.3rem;
     width: 4rem;
     /* background-color: #c99c9c; */
@@ -123,13 +135,16 @@ body {
     align-items: center;
     justify-content: center;
 }
-#flag h4{
+
+#flag h4 {
     color: white;
 }
-#flag:hover{
+
+#flag:hover {
     border: 1px solid white;
 }
-#hello{
+
+#hello {
     height: 3.3rem;
     width: 9rem;
     align-items: center;
@@ -139,21 +154,25 @@ body {
     position: absolute;
 
 }
-#hello:hover{
+
+#hello:hover {
     border: 1px solid white;
 }
-#hello h5{
+
+#hello h5 {
     font-weight: 100;
     padding-top: .5rem;
     padding-left: 1rem;
     color: white;
 }
-#hello h4{
+
+#hello h4 {
     padding-top: 0rem;
     padding-left: 1rem;
     color: white;
 }
-#order{
+
+#order {
     height: 3.3rem;
     width: 4rem;
     /* background-color: #c9b59c; */
@@ -167,16 +186,20 @@ body {
     align-items: center;
     justify-content: center;
 }
-#order .ri-shopping-cart-2-line{
+
+#order .ri-shopping-cart-2-line {
     color: white;
 }
-#order h5{
+
+#order h5 {
     color: white;
 }
-#order:hover{
+
+#order:hover {
     border: 1px solid white;
 }
-#cart{
+
+#cart {
     height: 3.3rem;
     width: 5rem;
     align-items: center;
@@ -185,18 +208,21 @@ body {
     border-radius: 4px;
     position: absolute;
 }
-#cart h5{
+
+#cart h5 {
     font-weight: 100;
     padding-top: .5rem;
     padding-left: 1rem;
     color: white;
 }
-#cart h4{
+
+#cart h4 {
     padding-top: 0rem;
     padding-left: 1rem;
     color: white;
 }
-#cart:hover{
+
+#cart:hover {
     border: 1px solid white;
 }
 
@@ -217,7 +243,8 @@ body {
     position: absolute;
     margin-top: 4.3rem;
 }
-#nav2 h5:hover{
+
+#nav2 h5:hover {
     border: 1px solid white;
     padding: .5rem;
 }
@@ -246,7 +273,7 @@ body {
 #bg {
     height: 56vh;
     width: 100vw;
-    background-color: salmon;
+    background-color: #E3E6E6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,46 +285,361 @@ body {
     width: 100vw;
     object-fit: cover;
     margin-top: 14.4rem;
-    /* position: relative;
-    display: inline-block;
-    display: flex;
-    justify-content: space-between; */
 }
 
 #bg-btn1 {
-    height: 16rem;
+    height: 12rem;
     width: 4rem;
     background-color: transparent;
-    position:absolute;
-    margin-left: -80.3rem;  
-    margin-top: 9rem; 
-  
+    position: absolute;
+    margin-left: -80.3rem;
+    margin-top: 2rem;
+
 }
+
 #bg-btn2 {
-    height: 16rem;
+    height: 12rem;
     width: 4rem;
     background-color: transparent;
-    position:absolute;
-    margin-left: 80.3rem;   
-    margin-top: 9rem; 
-  
+    position: absolute;
+    margin-left: 80.3rem;
+    margin-top: 2rem;
+
 }
-#bg #bg-btn1  {
+
+#bg #bg-btn1 {
     height: 4px;
     width: 1px;
     color: aliceblue;
 }
-#bg #bg-btn2 i{
+
+#bg #bg-btn2 i {
     height: 4px;
     width: 1px;
     color: aliceblue;
 }
-#page2{
+
+#Box {
+    height: 411px;
+    width: 96vw;
+
+    margin: 0rem 2rem;
+    padding-top: 0rem;
+    margin-top: -6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#D-box {
+    height: 400px;
+    width: 38vw;
+    background: white;
+    gap: 2rem;
+    margin: .5rem;
+    position: relative;
+    gap: 1rem;
+    z-index: 0;
+}
+
+#D-box h2 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    /* position: absolute; */
+}
+
+#BOX2 {
+    height: 22.5REM;
+    width: 19.5rem;
+    /* background-color: #965f5f; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#BOX2 #image {
+    gap: 1rem;
+    height: 10rem;
+    width: 8rem;
+    /* background: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BOX2 img {
+    height: 8rem;
+    width: 8rem;
+    padding-top: 1rem;
+    margin-top: -3rem;
+
+}
+
+#BOX2 #btn1 {
+    background-color: #FFD814;
+    padding: .5rem;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 250px;
+}
+
+#BOX2 #btn1:hover {
+    background-color: #f5df74;
+    cursor: pointer;
+    width: 249px;
+}
+
+#BOX2 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-left: -8rem;
+}
+
+
+#page2 {
     height: 100vh;
     width: 100vw;
-    background-color: 
-    rgb(199, 0, 0);
+    background-color:
+        #E3E6E6;
 
+}
+
+#box2-p {
+    height: 441px;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+#page2-div2 {
+    height: 313px;
+    width: 95vw;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 10px;
+    margin-left: 33px;
+}
+
+#page2-div2 a {
+    padding: 2rem;
+}
+
+#page2-div3 {
+    height: 34px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#page2-div4 {
+    height: 16rem;
+    width: 79.5rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+#page2-div5 {
+    height: 12.5rem;
+    width: 18rem;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2-div5 img{
+    object-fit: cover;
+    height: 11rem;
+    width: 17.5rem;
+}
+
+#page3 {
+    height: 81vh;
+    width: 100vw;
+    background-color: #131A22;
+}
+
+#Page3-div1 {
+    height: 10.5rem;
+    width: 100vw;
+    background-color: white;
+}
+
+#one {
+    margin-top: 2rem;
+    background-color: black;
+}
+
+#two {
+
+    background-color: black;
+}
+
+#containt {
+    height: 9rem;
+    width: 31rem;
+    /* background-color: bisque; */
+    margin-left: 27rem;
+}
+
+#containt h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+
+#containt #btn1 {
+    background-color: #FFD814;
+    padding: .5rem;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 250px;
+    margin-left: 7rem;
+}
+
+#containt h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+#page3 button {
+    height: 52px;
+    width: 100vw;
+    background-color: #37475A;
+    color: white;
+}
+
+#div-cont {
+    height: 25rem;
+    width: 100vw;
+    background-color:
+        #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#div-logo {
+    height: 8rem;
+    width: 100vw;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-cont #divbox {
+    height: 21rem;
+    width: 16rem;
+    /* background-color: #fff; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-cont #divbox h3 {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 1.5REM;
+    color: white;
+}
+
+#div-cont #divbox a {
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    grid-auto-rows: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+#div-logo-img {
+    height: 49px;
+    width: 118px;
+    /* background-color: red; */
+}
+
+#div-logo-img img {
+    height: 49px;
+    width: 118px;
+    object-fit: cover;
+}
+
+#div-footer {
+    height: 21rem;
+    width: 100vw;
+    background-color: #131A22;
+}
+
+#div-footer-1 {
+    height: 12rem;
+    width: 59rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-left: 14rem;
+}
+
+#div-footer-a {
+    height: 11rem;
+    width: 10rem;
+    /* background-color: #fff; */
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 40px;
+}
+
+#div-footer-a a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+
+}
+
+#div-copyright {
+    height: 50px;
+    width: 419px;
+    /* background-color: red; */
+    margin-left: 28rem;
+    margin-top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#div-copyright a {
+    margin: .5rem;
+    margin-top: .5rem;
+    text-decoration: none;
+    color: white;
+}
+
+#div-copyright #ONE {
+    margin: -0.5rem;
+    margin-top: .5rem;
+    margin-left: 4.5REM;
+    color: GRAY;
 }
 
 
@@ -323,17 +665,10 @@ body {
 
     }
 
-    nav {
-        height: 17vh;
+    #page1 {
+        background-color: lightblue;
+        height: 100vh;
         width: 100vw;
-        background-color: black;
-    }
-
-    img {
-        height: 13vh;
-        width: 26vw;
-        margin: -22px;
-        margin-left: 3rem;
     }
 
 
